@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <radialGradient id="goldGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFD54F" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#0b0c0e" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="goldGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF9C4"/>
+      <stop offset="25%" stop-color="#FFD54F"/>
+      <stop offset="60%" stop-color="#FFA000"/>
+      <stop offset="100%" stop-color="#E65100"/>
+    </linearGradient>
+    <linearGradient id="silverAum" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="35%" stop-color="#ECEFF1"/>
+      <stop offset="70%" stop-color="#CFD8DC"/>
+      <stop offset="100%" stop-color="#90A4AE"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="10" stdDeviation="16" flood-color="#000000" flood-opacity="0.8"/>
+      <feDropShadow dx="0" dy="2" stdDeviation="8" flood-color="#FFB300" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="512" height="512" rx="120" fill="#0c0e14"/>
+  <circle cx="256" cy="256" r="230" fill="url(#goldGlow)"/>
+
+  <!-- Golden Ring Frame -->
+  <circle cx="256" cy="256" r="210" fill="none" stroke="url(#goldGradient)" stroke-width="4" opacity="0.7"/>
+
+  <!-- Golden Trident (Trishul) -->
+  <g filter="url(#shadow)">
+    <!-- Center Spear Blade -->
+    <path d="M256 60 L276 160 L256 195 L236 160 Z" fill="url(#goldGradient)"/>
+    <line x1="256" y1="60" x2="256" y2="200" stroke="#FFF9C4" stroke-width="3"/>
+
+    <!-- Left Curved Prong -->
+    <path d="M156 120 C146 170, 156 220, 226 230 L220 205 C176 200, 172 150, 186 120 Z" fill="url(#goldGradient)"/>
+    <path d="M156 120 L170 90 L186 120 Z" fill="url(#goldGradient)"/>
+
+    <!-- Right Curved Prong -->
+    <path d="M356 120 C366 170, 356 220, 286 230 L292 205 C336 200, 340 150, 326 120 Z" fill="url(#goldGradient)"/>
+    <path d="M326 120 L342 90 L356 120 Z" fill="url(#goldGradient)"/>
+
+    <!-- Damru Arch Base -->
+    <path d="M190 230 C220 245, 292 245, 322 230 L310 248 C280 260, 232 260, 202 248 Z" fill="url(#goldGradient)"/>
+
+    <!-- Golden Rod (Shaft) -->
+    <rect x="246" y="246" width="20" height="210" rx="10" fill="url(#goldGradient)"/>
+    <polygon points="256,470 238,446 274,446" fill="url(#goldGradient)"/>
+  </g>
+
+  <!-- Stylish Designed Silver Aumn (ॐ) in the Rod -->
+  <circle cx="256" cy="336" r="54" fill="#0d0f14" stroke="url(#goldGradient)" stroke-width="3"/>
+  <text x="256" y="362" text-anchor="middle" fill="url(#silverAum)" font-size="64" font-family="'Segoe UI', Roboto, sans-serif" font-weight="900" style="filter: drop-shadow(0 0 4px #FFFFFF);">ॐ</text>
+</svg>

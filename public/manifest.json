@@ -1,0 +1,27 @@
+{
+  "id": "/",
+  "name": "YouTube Gold - Premium Ad-Free & MP3 Player",
+  "short_name": "YouTube Gold",
+  "description": "Luxury gold edition YouTube web app with instant auto-skip ad shield, continuous background MP3 playback, and offline downloads.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#0b0c0e",
+  "theme_color": "#0b0c0e",
+  "categories": ["entertainment", "music", "video"],
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "name": "YouTube Gold - Premium Ad-Free & MP3 Player",
+  "description": "Luxury gold edition YouTube web experience with instant auto-skip ad shield, continuous background MP3 playback, offline audio & video downloader, and Gemini AI intelligence.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
